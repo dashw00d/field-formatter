@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+
+.gemini/
+.serena/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# Temporary files
+*.log
+tmp/
+/home/ryan/.gemini/tmp/*
+
+# Windows specific
+*.Identifier
+[Bb]in/
+[Oo]bj/
